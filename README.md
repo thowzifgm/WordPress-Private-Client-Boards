@@ -1,0 +1,2 @@
+# Private-Client-Boards
+Sharing private content with specific members is now possible with Private Client Boards. Administrators share private content for each user on a single private page, shielding them from other users. Along with the typical private content offered by many other existing plugins, this plugin offers private discussions, private file sharing, and customised private content tabs. Administrators can receive immediate response from users while sharing a variety of confidential information with them. 
