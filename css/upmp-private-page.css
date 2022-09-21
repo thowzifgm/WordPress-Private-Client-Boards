@@ -1,0 +1,331 @@
+.upmp-private-page-tabs{
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 20px;
+}
+
+.upmp_button_color{
+    background: #428bca !important;
+    color: #FFF !important;
+}
+
+.upmp-private-page-active-tab{
+    background: #cfcfcf !important;
+}
+
+.upmp-private-page-content-tab-content{
+    padding: 20px;
+}
+.upmp-private-page-empty-user-message{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.upmp-private-page-container.upmp-private-page-single{
+    padding: 5px;
+    border: 1px solid #cfcfcf;
+}
+
+.upmp-private-page-cover-image img{
+    width: 100%;
+}
+
+.upmp-private-page-cover-empty-image{
+    width: 100%;
+    height: 40px;
+    background: #428bca ;
+}
+
+.upmp-private-page-title{
+    padding: 10px 20px;
+    position: relative;
+    bottom: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: -40px;
+}
+
+.upmp-private-page-tab{
+    padding: 15px;
+    float: left;
+}
+
+/* Private Page Discussion */
+.upmp-private-page-disscussion-tab-submit{
+    padding: 5px 10px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+.upmp-private-page-messages-single-comment-save{
+    padding: 5px 10px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    margin: 7px;
+}
+.upmp-private-page-disscussion-tab-msg{
+    margin: 5px 10px;
+}
+
+.upmp-private-page-disscussion-tab-editor,.upmp-private-page-disscussion-tab-editor textarea{
+    padding: 10px !important;
+    padding-bottom: 5px !important;
+    margin: 0 !important;
+    
+}
+
+.upmp-private-page-disscussion-tab-editor textarea{
+    width: 100%;
+}
+
+.upmp-private-page-disscussion-tab-members{
+    padding: 0 10px 5px;
+}
+
+.upmp-message-read-status{
+    background-color: #428bca;
+    color: #fff;
+    font-size: 13px;
+    margin: 0 20px;
+    padding: 5px 10px;
+}
+
+.upmp-file-read-status{
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px;
+    float: right;
+}
+
+.upmp-private-page-messages-single-block-avatar img, .upmp-private-page-messages-single-comment-avatar img{
+    width: 50px;
+    height: 50px;
+}
+
+.upmp-private-page-messages-list{
+    padding: 10px;
+}
+
+.upmp-private-page-messages-single-block{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cfcfcf;
+}
+
+.upmp-private-page-messages-single-block-avatar,.upmp-private-page-messages-single-comment-avatar{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.upmp-private-page-messages-single-block-names, .upmp-private-page-messages-single-comment-names{
+    float: left;
+}
+
+.upmp-private-page-messages-single-block-message{
+    padding: 15px 0px 10px;
+}
+.upmp-private-page-messages-single-block-actions{
+    background: #eee;
+}
+
+.upmp-private-page-messages-single-block-add-comment,.upmp-private-page-messages-single-block-view-comment{
+    padding: 10px;float: left;
+}
+
+.upmp-private-page-messages-single-block-comment,.upmp-private-page-messages-single-block-add-comments{
+    padding: 10px;
+    border-bottom: 3px solid #fff;
+}
+
+.upmp-private-page-messages-single-block-comments{
+    background: #f5f5f5;
+}
+
+.upmp-private-page-messages-single-comment-names .upmp-comment-name
+{
+    float: left;
+    font-weight: bold;
+    color: #424bca;
+}
+
+.upmp-private-page-messages-single-block-names .upmp-message-name{
+    font-weight: bold;
+    color: #424bca;
+}
+
+.upmp-private-page-messages-single-comment-names .upmp-comment-message{
+    float: left;
+    margin-left: 20px;
+}
+
+.upmp-private-page-messages-single-comment-names .upmp-comment-date{
+    clear: both;
+}
+
+.upmp-private-page-messages-single-comment-editor{
+    float: left;
+    width: 50%;
+}
+
+.upmp-private-page-messages-single-comment-editor textarea{
+    height: 50px;
+    width: 100%;
+}
+
+.upmp-private-page-messages-single-comment-button{
+    float: left;
+}
+
+.upmp-private-page-messages-single-template,
+.upmp-private-page-messages-single-block-comment-template{
+    display: none;
+}
+
+.upmp-private-page-messages-pagination,.upmp-private-page-files-pagination,.upmp-private-page-members-pagination,
+.upmp-private-page-admin-messages-pagination,.upmp-private-page-admin-files-pagination{
+    padding: 10px 0;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+}
+
+.upmp-private-page-messages-pagination:hover,.upmp-private-page-files-pagination:hover,
+.upmp-private-page-members-pagination:hover,.upmp-private-page-admin-files-pagination:hover{
+    cursor: pointer;
+}
+
+.upmp-private-page-messages-single-message-delete,.upmp-private-page-messages-single-comment-delete,
+.upmp-private-page-admin-messages-single-message-delete,.upmp-private-page-admin-messages-single-comment-delete{
+    float: right;
+    margin: 10px;
+    padding: 3px 10px !important;
+    background: #428bca;
+    color: #fff;
+}
+
+.upmp-private-page-messages-single-message-delete:hover,
+.upmp-private-page-messages-single-comment-delete:hover{
+    cursor: pointer;
+}
+
+
+/* Private Page Files Section */
+.upmp-private-page-file-upload{
+    background: #428bca !important;
+}
+.upmp-private-page-files-create{
+
+}
+
+.upmp-private-page-files-add{
+    padding: 10px;
+}
+
+.upmp-private-page-files-add-btn{
+        padding: 10px;
+    background: #eee;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #cfcfcf;
+}
+
+.upmp-private-page-files-add-btn:hover{
+    cursor: pointer;
+}
+
+.upmp-private-page-files-add-form{
+    padding: 10px 20px;
+    background: #f5f5f5;
+    margin: 10px;
+    border: 1px solid #cfcfcf;
+    display: none;
+}
+
+.upmp-private-page-files-add-form-row{
+    margin: 5px 0;
+}
+
+.upmp-private-page-files-add-form-label,.upmp-private-page-files-list-label{
+    float: left;
+    width: 30%;
+}
+
+.upmp-private-page-files-add-form-field,.upmp-private-page-files-list-field{
+    float: left;
+    width: 60%;
+}
+
+.upmp-private-page-files-add-form-field input[type='text'],
+.upmp-private-page-files-add-form-field textarea{
+    width: 95%;
+}
+
+.upmp-message-info-error p{
+    margin: 0 !important;
+    padding: 0 10px !important;
+}
+
+.upmp-private-page-files-list{
+    padding: 10px;
+}
+
+.upmp-private-page-file-item{
+
+    background: #f5f5f5;
+    margin: 10px 0;
+}
+
+.upmp-private-page-file-item-delete,.upmp-private-page-file-item-download,.upmp-private-page-file-item-view,
+.upmp-private-page-admin-file-item-delete{
+    float: right;
+    padding: 10px;
+    background: #428bca;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.upmp-private-page-file-item-download a{
+    color: #FFF;
+}
+
+.upmp-private-page-file-item-name{
+    float: left;
+    padding: 10px;
+}
+
+.upmp-private-page-file-item-data{
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.upmp-private-page-file-item-data-open{
+    display: block;
+}
+
+.upmp-private-page-file-item-data-closed{
+    display: none;
+}
+
+.upmp-private-page-file-item-data-row{
+    padding: 10px;
+}
+
+.upmp-private-page-files-list-msg{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.upmp-private-page-files-list-msg p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.upmp-private-page-file-item-row{
+    border: 1px solid #cfcfcf;
+}

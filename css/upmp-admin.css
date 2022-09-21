@@ -1,0 +1,232 @@
+#upmp_settings *{
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+}
+
+#upmp_settings {
+    padding: 40px 20px;
+    background: #FFF;
+    border: 1px solid #E0E0E0;
+}
+
+.upmp-setting-panel {
+    margin: 10px 0;
+    padding: 20px;
+    background: #FFF;
+    border: 1px solid #E0E0E0;
+}
+
+.upmp-row{
+    margin: 10px 0;
+}
+
+.upmp-clear{
+    clear: both;
+}
+
+.upmp-label{
+    width: 25%;
+    float: left;
+}
+
+.upmp-field{
+    width: 75%;
+    float:left;
+}
+
+.upmp-button-primary {
+    background: #00a0d2 none repeat scroll 0 0;
+    border-color: #0073aa;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 34px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.upmp-message-info-error{
+    background: #ffdbdb none repeat scroll 0 0;
+    border: 1px solid #ffb4b4;
+    color: #ac2c2c;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.upmp-message-info-success{
+    background: #d8f7c1;
+    border: 1px solid #a1d47b;
+    color: #527638;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+.upmp-role-hierarchy-item{
+    padding: 10px;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+    margin: 5px 0;
+    width: 300px;
+}
+
+.upmp-settings-help{
+    display: block;
+    margin: 10px 0 !important;
+}
+
+.upmp-settings-list input[type='text']{
+    width: 80%;
+}
+
+.upmp-select2-setting{
+    width: 80%;
+}
+
+.upmp-select2-setting,.upmp_select2-container{
+    width: 50% !important;    
+}
+
+.upmp-select2-full-setting .upmp_select2-container{
+    width: 100% !important;    
+}
+
+.upmp_select2-search__field{
+    padding: 0 !important;
+}
+
+.upmp_select2-selection{
+    min-height: 32px !important;
+}
+
+/* Plugin HELP CSS */
+.wpexpert-help-screenshot{
+    text-align: center !important;
+}
+.wpexpert-help-screenshot img{
+    border: 10px solid #FFF !important;
+    outline: 1px solid #CFCFCF !important;
+    max-width: 800px !important;
+    margin: auto !important;
+}
+
+.wpexpert-help-list{
+    padding: 10px;
+    background: #FFF;
+}
+
+.wpexpert-help-list li{
+    list-style: square;
+    margin: 10px 20px;
+}
+
+.wpexpert-plugins-panel{
+    padding: 20px !important;
+}
+
+.wpexpert-plugins-panel-single{
+    padding: 2%;
+    width: 43%;
+    float: left;
+    margin: 1%;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    height: 325px;
+}
+
+.wpexpert-plugins-panel-single-image img{
+    width: 100%;
+    height: 150px;
+}
+
+.wpexpert-plugins-panel-single-desc{
+    padding: 10px;
+}
+
+.wpexpert-plugins-panel-single-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 5px;
+    background: #0073aa;
+    color: #fff;
+}
+
+.wpexpert-plugins-panel-single-more{
+    text-align: center;
+    display: block;
+    background: #0073aa;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+.wpexpert-help-tab{
+    margin-top: 10px;
+}
+
+
+
+/* Private Page Tabs */
+
+#upmp_private_tab_role_panel,#upmp_private_tab_predefined_type_panel,#upmp_private_tab_upload_type_panel,
+#upmp_private_tab_upload_user_roles_panel,#upmp_private_tab_upload_role_panel{
+    display: none;
+}
+
+.upmp_post_meta_row{
+    padding: 10px
+}
+
+.upmp_post_meta_row_label{
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.upmp_post_meta_row_field{
+    float: left;
+    min-width: 500px;
+}
+
+.upmp_post_meta_row_field input[type='text'],.upmp_post_meta_row_field textarea,.upmp_post_meta_row_field select{
+    width: 300px;
+}
+
+.upmp-private-page-tab-content{
+    padding: 20px;
+}
+
+.upmp-help-docs{
+    background: #0073aa;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.upmp-help-docs-img{
+     margin:auto !important;border:10px solid #cfcfcf;display:block;
+}

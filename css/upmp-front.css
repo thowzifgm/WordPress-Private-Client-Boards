@@ -1,0 +1,53 @@
+.upmp-clear{
+    clear: both;
+}
+
+.upmp-error-outline{
+    border: 1px solid #ac2c2c !important;
+}
+
+.upmp_button_color{
+    background: #428bca !important;
+    color: #FFF !important;
+}
+
+.upmp-message-info-error{
+    background: #ffdbdb none repeat scroll 0 0;
+    border: 1px solid #ffb4b4;
+    color: #ac2c2c;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.upmp-message-info-success{
+    background: #d8f7c1;
+    border: 1px solid #a1d47b;
+    color: #527638;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.upmp-select2-front,.upmp_select2-container{
+    width: 50% !important;    
+}
+
+.upmp-message-info-error p{
+    margin: 0 !important;
+    padding: 0 10px !important;
+}
+
+.upmp_info_message{
+    background: #a9cdff none repeat scroll 0 0;
+    border: 1px solid #72b5fb;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.upmp-private-page-tab-content{
+    padding: 20px;
+}
